@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "title": "Cyber Nexus: Digital Uprising",
+    "coverPhoto": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=800&fit=crop",
+    "category": "Cyberpunk RPG",
+    "downloadLink": "https://example.com/download/cyber-nexus",
+    "description": "Immerse yourself in a neon-soaked dystopian future where technology and humanity collide. Make critical choices that shape the fate of the megacity as you navigate through corporate conspiracies, underground hacker networks, and augmented reality conflicts. Every decision matters in this narrative-driven cyberpunk adventure.",
+    "ratings": "4.8",
+    "developer": "NeonForge Studios"
+  },
+  {
+    "id": "2",
+    "title": "Stellar Odyssey: Beyond the Void",
+    "coverPhoto": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=600&h=800&fit=crop",
+    "category": "Space Exploration",
+    "downloadLink": "https://example.com/download/stellar-odyssey",
+    "description": "Chart your course through the infinite cosmos in this breathtaking space exploration game. Discover uncharted planets, encounter alien civilizations, and uncover the mysteries of the universe. Build your own spaceship, manage resources, and survive in the hostile beauty of deep space.",
+    "ratings": "4.7",
+    "developer": "Cosmic Dreams Interactive"
+  },
+  {
+    "id": "3",
+    "title": "Shadow Legends: Realm of Darkness",
+    "coverPhoto": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=600&h=800&fit=crop",
+    "category": "Dark Fantasy Action",
+    "downloadLink": "https://example.com/download/shadow-legends",
+    "description": "Venture into a dark medieval world plagued by ancient curses and mythical creatures. Master brutal combat mechanics, forge legendary weapons, and face off against towering bosses in epic battles. Your courage will be tested as you unravel the secrets of the cursed realm.",
+    "ratings": "4.9",
+    "developer": "Darkforge Entertainment"
+  },
+  {
+    "id": "4",
+    "title": "Velocity Rush: Street Kings",
+    "coverPhoto": "https://images.unsplash.com/photo-1511882150382-421056c89033?w=600&h=800&fit=crop",
+    "category": "Racing",
+    "downloadLink": "https://example.com/download/velocity-rush",
+    "description": "Feel the adrenaline surge through neon-lit city streets in the ultimate underground racing experience. Customize your ride, compete in illegal street races, and build your reputation as the fastest driver in the city. High-speed action meets urban culture in this pulse-pounding racer.",
+    "ratings": "4.6",
+    "developer": "Turbo Studios"
+  },
+  {
+    "id": "5",
+    "title": "Pixel Quest: Retro Adventures",
+    "coverPhoto": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&h=800&fit=crop",
+    "category": "Platformer",
+    "downloadLink": "https://example.com/download/pixel-quest",
+    "description": "Embark on a nostalgic journey through beautifully crafted pixel art worlds. Jump, run, and solve puzzles across diverse environments filled with secrets and collectibles. This modern take on classic platformers delivers challenging gameplay wrapped in charming retro aesthetics.",
+    "ratings": "4.5",
+    "developer": "RetroWave Games"
+  },
+  {
+    "id": "6",
+    "title": "Warzone Chronicles: Last Stand",
+    "coverPhoto": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&h=800&fit=crop",
+    "category": "Tactical Shooter",
+    "downloadLink": "https://example.com/download/warzone-chronicles",
+    "description": "Command elite squads in intense tactical combat scenarios. Plan your strategies, coordinate with teammates, and execute precision strikes in this competitive multiplayer shooter. Every match is a test of skill, teamwork, and quick thinking.",
+    "ratings": "4.7",
+    "developer": "Frontline Games"
+  },
+  {
+    "id": "7",
+    "title": "Mystic Valley: Farming Harmony",
+    "coverPhoto": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=800&fit=crop",
+    "category": "Simulation",
+    "downloadLink": "https://example.com/download/mystic-valley",
+    "description": "Escape to a tranquil countryside and build the farm of your dreams. Plant crops, raise animals, and form relationships with the charming townsfolk. Discover magical secrets hidden throughout the valley in this relaxing and heartwarming farming simulation.",
+    "ratings": "4.8",
+    "developer": "Harvest Moon Studios"
+  },
+  {
+    "id": "8",
+    "title": "Zombie Apocalypse: Survival Mode",
+    "coverPhoto": "https://images.unsplash.com/photo-1580234736004-252d3c1f6d95?w=600&h=800&fit=crop",
+    "category": "Survival Horror",
+    "downloadLink": "https://example.com/download/zombie-apocalypse",
+    "description": "Fight for survival in a world overrun by the undead. Scavenge for resources, craft weapons, and build fortifications to protect yourself from relentless zombie hordes. Form alliances or go solo in this heart-pounding survival horror experience.",
+    "ratings": "4.6",
+    "developer": "Dead Zone Interactive"
+  },
+  {
+    "id": "9",
+    "title": "Puzzle Paradigm: Mind Benders",
+    "coverPhoto": "https://images.unsplash.com/photo-1611996575749-79a3a250f948?w=600&h=800&fit=crop",
+    "category": "Puzzle",
+    "downloadLink": "https://example.com/download/puzzle-paradigm",
+    "description": "Challenge your mind with innovative puzzle mechanics that twist reality. Manipulate time, space, and perspective to solve increasingly complex brain-teasers. A cerebral adventure for those who love to think outside the box.",
+    "ratings": "4.7",
+    "developer": "MindForge Studios"
+  },
+  {
+    "id": "10",
+    "title": "Neon Fighters: Arena Battle",
+    "coverPhoto": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=600&h=800&fit=crop",
+    "category": "Fighting",
+    "downloadLink": "https://example.com/download/neon-fighters",
+    "description": "Step into the electrifying arena where fighters from across dimensions clash. Master unique combat styles, execute devastating combos, and rise through the ranks to become the ultimate champion. Fast-paced action meets stylish visuals in this competitive fighter.",
+    "ratings": "4.8",
+    "developer": "Thunder Strike Games"
+  },
+  {
+    "id": "11",
+    "title": "Ocean Depths: Submarine Quest",
+    "coverPhoto": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&h=800&fit=crop",
+    "category": "Adventure",
+    "downloadLink": "https://example.com/download/ocean-depths",
+    "description": "Dive into the mysterious depths of the ocean and explore underwater civilizations, ancient ruins, and bizarre sea creatures. Navigate your submarine through treacherous waters while uncovering the secrets of the deep blue.",
+    "ratings": "4.5",
+    "developer": "Aquatic Adventures"
+  },
+  {
+    "id": "12",
+    "title": "Dragon's Fury: Legendary Tales",
+    "coverPhoto": "https://images.unsplash.com/photo-1578632292335-df3abbb0d586?w=600&h=800&fit=crop",
+    "category": "Fantasy RPG",
+    "downloadLink": "https://example.com/download/dragons-fury",
+    "description": "Embark on an epic quest in a world where dragons rule the skies. Build your character, gather a party of heroes, and face mythical beasts in turn-based tactical combat. A sprawling fantasy adventure with rich lore and memorable characters.",
+    "ratings": "4.9",
+    "developer": "Legendary Games Studio"
+  }
+]
