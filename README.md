@@ -4,7 +4,7 @@ An engaging online library for discovering and supporting indie game developers.
 
 ## 🎮 Live URL
 
-[]
+[https://gamehub-chi-coral.vercel.app/]
 
 ## ✨ Key Features
 
@@ -102,7 +102,7 @@ npm install
 ```
 
 3. Set up environment variables:
-Create a `.env` file or use Replit Secrets with:
+Create a `.env` file with:
 ```
 VITE_FIREBASE_API_KEY=your_api_key
 VITE_FIREBASE_APP_ID=your_app_id
