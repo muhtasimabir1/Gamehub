@@ -33,6 +33,11 @@ export function AuthProvider({ children }) {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    if (!auth) {
+      setLoading(false);
+      return;
+    }
+
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       setUser(user);
       setLoading(false);
@@ -53,6 +58,11 @@ export function AuthProvider({ children }) {
   }, []);
 
   const register = async (name, email, password, photoURL) => {
+    if (!auth) {
+      const errorMsg = "Authentication is not configured. Please contact support.";
+      setError(errorMsg);
+      throw new Error(errorMsg);
+    }
     try {
       setError(null);
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
@@ -68,6 +78,11 @@ export function AuthProvider({ children }) {
   };
 
   const login = async (email, password) => {
+    if (!auth) {
+      const errorMsg = "Authentication is not configured. Please contact support.";
+      setError(errorMsg);
+      throw new Error(errorMsg);
+    }
     try {
       setError(null);
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
@@ -79,6 +94,9 @@ export function AuthProvider({ children }) {
   };
 
   const logout = async () => {
+    if (!auth) {
+      return;
+    }
     try {
       setError(null);
       await signOut(auth);
@@ -90,6 +108,11 @@ export function AuthProvider({ children }) {
   };
 
   const googleLogin = async () => {
+    if (!auth) {
+      const errorMsg = "Authentication is not configured. Please contact support.";
+      setError(errorMsg);
+      throw new Error(errorMsg);
+    }
     try {
       setError(null);
       const provider = new GoogleAuthProvider();
@@ -101,6 +124,11 @@ export function AuthProvider({ children }) {
   };
 
   const updateUserProfile = async (name, photoURL) => {
+    if (!auth) {
+      const errorMsg = "Authentication is not configured. Please contact support.";
+      setError(errorMsg);
+      throw new Error(errorMsg);
+    }
     try {
       setError(null);
       if (auth.currentUser) {
@@ -117,6 +145,11 @@ export function AuthProvider({ children }) {
   };
 
   const resetPassword = async (email) => {
+    if (!auth) {
+      const errorMsg = "Authentication is not configured. Please contact support.";
+      setError(errorMsg);
+      throw new Error(errorMsg);
+    }
     try {
       setError(null);
       await sendPasswordResetEmail(auth, email);
